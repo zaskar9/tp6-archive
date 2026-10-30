@@ -1,0 +1,18 @@
+Procedure Resultat;
+Begin HGrund.Draw(blue);
+      Write(' MGComputerCompany Examination 2.0');
+      GotoXY(3,25); Write('Copyright 1993 by Michael Grossnikluas, Basel');
+      Frame.Draw(blue);
+      TextColor(white);
+      GotoXY(3,3); Write('DOS Version                     ',Lo(Version),'.',Hi(Version));
+      GotoXY(3,4); Write('Systemdatum                     ',tg,'.',mt,'.',jh);
+      GotoXY(3,5); Write('Systemzeit                      ',std,':',min,':',sek);
+      GotoXY(3,7); Write('Gr”sse des Laufwerkes C:\       ',DSize:10);
+      Gotoxy(3,8); Write('Leerraum des Laufwerkes C:\     ',DFree:10);
+      GotoXY(3,10);Write('Graphikadapter                  ',GrName);
+      GotoXY(3,11);Write('Aufl”sung des Graphikadapters   ',MaxX,'x',MaxY);
+      GotoXY(3,13);Write('Maustest                        ',Maus);
+      GotoXY(3,14);Write('Anzahl Maustasten               ',Buttons);
+      GotoXY(3,16);Write('SoundBlastertest                ',SBlaster);
+      Taste:=ReadKey;
+End;

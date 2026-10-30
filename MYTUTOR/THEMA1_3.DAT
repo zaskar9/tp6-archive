@@ -1,0 +1,19 @@
+
+ - OutIntXY
+      Syntax: OutIntXY(x,y,Zahl,si:Integer);
+   [x|y]  sind die Koordinaten, an denen die Zahl ausgegeben wird.
+   [Zahl] bezeichnet die auszugebende Zahl.
+   [si]   gibt an wie viele Stellen vor dem Komma berÅcksichtigt werden.
+
+   Der Befehl gibt eine Integer-Zahl im Graphikmodus an den Koordinaten
+   x,y aus.
+
+ - OutRealXY
+      Syntax: OutRealXY(x,y:Integer;Zahl:Real;s1,s2:Integer);
+   [x|y]  sind die Koordinaten, an denen die Zahl ausgegeben wird.
+   [Zahl] bezeichnet die auszugebende Zahl.
+   [s1]   gibt an wie viele Stellen vor dem Komma berÅcksichtigt werden.
+   [s2]   gibt an wie viele Stellen nach dem Komma berÅcksichtigt werden.
+
+   Der Befehl gibt eine Real-Zahl im Graphikmodus an den Koordinaten
+   x,y aus.

@@ -1,0 +1,20 @@
+Willkommen zu MyUtil Tutor 1.0!
+
+Sie haben sich fÅr das die öbersicht Åber die in MyUtil enthaltenen
+Graphikbefehle entschieden.
+
+Dieses Programm wird Ihnen helfen, diese anzuwenden und zu verstehen.
+
+ZunÑchst aber einmal ein kurzer öberblick Åber diese Befehle:
+
+     - Graphik_Ein
+     - Graphik_Aus
+
+     - OutIntXY
+     - OutRealXY
+     - InTextXY
+     - InIntXY
+     - InRealXY
+
+     - VGA_Ein
+     - VGA_Aus

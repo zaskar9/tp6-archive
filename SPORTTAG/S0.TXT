@@ -1,0 +1,556 @@
+1A Abu-Abdo Maha        1979 M        -1   -1   -1   -1 
+1A Baumann Markus       1979 B        -1   -1   -1   -1 
+1A Baumgartner Eliane   1979 M        -1   -1   -1   -1 
+1A Berner Samuel        1978 B        -1   -1   -1   -1 
+1A Brkljacic Natasa     1979 M        -1   -1   -1   -1 
+1A Dussy Rebekka        1979 M        -1   -1   -1   -1 
+1A Frei Benjamin        1979 B        -1   -1   -1   -1 
+1A Gagliardo Loris      1980 B        -1   -1   -1   -1 
+1A Hammel Chantal-Moniq 1978 M        -1   -1   -1   -1 
+1A Hess Ramon           1979 B        -1   -1   -1   -1 
+1A Lachenmeier Nicole   1979 M        -1   -1   -1   -1 
+1A Lauscher Fiona       1979 M        -1   -1   -1   -1 
+1A Marti Ursina Isabell 1979 M        -1   -1   -1   -1 
+1A Meuter Jacqueline    1979 M        -1   -1   -1   -1 
+1A Nicolet-dit-FÇlix Le 1979 M        -1   -1   -1   -1 
+1A Raissle David        1978 B        -1   -1   -1   -1 
+1A Rink Kirstin         1978 M        -1   -1   -1   -1 
+1A Roberty Patricia Isa 1979 M        -1   -1   -1   -1 
+1A RÅedi Lea            1979 M        -1   -1   -1   -1 
+1A Sammarruco Abramo    1979 B        -1   -1   -1   -1 
+1A Schaub Linn  Andrea  1979 M        -1   -1   -1   -1 
+1A Schiess Lea  Sarah   1979 M        -1   -1   -1   -1 
+1A Taillens Christelle  1979 M        -1   -1   -1   -1 
+1A Trombini Mauro       1979 B        -1   -1   -1   -1 
+1A Waltuch Jonathan     1979 B        -1   -1   -1   -1 
+1B Almeida Laura        1979 M        -1   -1   -1   -1 
+1B Berner Kaspar        1978 B        -1   -1   -1   -1 
+1B Blaauboer Adriaan    1978 B        -1   -1   -1   -1 
+1B Demir Hasan          1978 B        -1   -1   -1   -1 
+1B Djalic Zora          1977 M        -1   -1   -1   -1 
+1B Harnisch Silvia      1980 M        -1   -1   -1   -1 
+1B Hauser Andrea Nicole 1979 M        -1   -1   -1   -1 
+1B Iten Kevin  Olivier  1979 B        -1   -1   -1   -1 
+1B Jeker Rebecca        1979 M        -1   -1   -1   -1 
+1B Lo Giudice Fabio  Pi 1979 B        -1   -1   -1   -1 
+1B Mensch Mirjam  Astri 1979 M        -1   -1   -1   -1 
+1B Meury Florens        1979 B        -1   -1   -1   -1 
+1B Milano Angela  Silvi 1979 M        -1   -1   -1   -1 
+1B Neiger Melanie       1979 M        -1   -1   -1   -1 
+1B Obrist Carmen        1979 M        -1   -1   -1   -1 
+1B Rosak Mirjam  Katja  1978 M        -1   -1   -1   -1 
+1B Roth Jaime Raimund   1978 B        -1   -1   -1   -1 
+1B Sattler Simone       1979 M        -1   -1   -1   -1 
+1B Slavicek Samir       1978 B        -1   -1   -1   -1 
+1B Steg Dominique  DÇsi 1979 M        -1   -1   -1   -1 
+1B Vîkt Christian       1978 B        -1   -1   -1   -1 
+1B Weber Andrea         1979 M        -1   -1   -1   -1 
+1B Yildirim Sevda       1979 M        -1   -1   -1   -1 
+1C Buser Sven  Roland   1978 B        -1   -1   -1   -1 
+1C Buser Claudia  Susan 1979 M        -1   -1   -1   -1 
+1C Calcagno Alessandro  1978 B        -1   -1   -1   -1 
+1C Carrillo Alberto     1979 B        -1   -1   -1   -1 
+1C Cimino Paola         1979 M        -1   -1   -1   -1 
+1C Delbanco Susanne     1979 M        -1   -1   -1   -1 
+1C Dubra Lorena         1979 M        -1   -1   -1   -1 
+1C Dzakulin Maja        1979 M        -1   -1   -1   -1 
+1C Gosteli Nicole       1979 M        -1   -1   -1   -1 
+1C Grossniklaus Jonas   1979 B        -1   -1   -1   -1 
+1C GÅnthert SÇvÇrine    1979 M        -1   -1   -1   -1 
+1C Haway Oliver Kim     1977 B        -1   -1   -1   -1 
+1C Holliger Caroline  M 1979 M        -1   -1   -1   -1 
+1C Kristmann Stefan  Ma 1979 B        -1   -1   -1   -1 
+1C Labhardt Sarah  Lili 1979 M        -1   -1   -1   -1 
+1C Lindner Matthias     1979 B        -1   -1   -1   -1 
+1C LÅthi Marc           1978 B        -1   -1   -1   -1 
+1C Mall Dennis Patrick  1979 B        -1   -1   -1   -1 
+1C Moshfegh Yves        1979 B        -1   -1   -1   -1 
+1C Nagel Christine Mich 1979 M        -1   -1   -1   -1 
+1C Ristic Sanja         1979 M        -1   -1   -1   -1 
+1C Schudel Patrick      1978 B        -1   -1   -1   -1 
+1C Staudenmann Nadin  Y 1979 M        -1   -1   -1   -1 
+1C ValdÇs Susana        1979 M        -1   -1   -1   -1 
+1C Ziegler Sylvia Eilee 1979 M        -1   -1   -1   -1 
+1D Acemoglu Yelda  Jasm 1979 M        -1   -1   -1   -1 
+1D Ammann Noemi Rachel  1979 M        -1   -1   -1   -1 
+1D BÑnninger Silvia     1979 M        -1   -1   -1   -1 
+1D Bernhart Patrick     1979 B        -1   -1   -1   -1 
+1D Blaser Isabelle      1979 M        -1   -1   -1   -1 
+1D Brodbeck Monika Barb 1979 M        -1   -1   -1   -1 
+1D Burkhard Kathrin     1979 M        -1   -1   -1   -1 
+1D Camenzind Andrea Cla 1979 M        -1   -1   -1   -1 
+1D Dubra Vanessa        1979 M        -1   -1   -1   -1 
+1D Genitsch Anna        1979 M        -1   -1   -1   -1 
+1D Jermann Michael      1978 B        -1   -1   -1   -1 
+1D Lerch Jannis         1979 B        -1   -1   -1   -1 
+1D Lima Jacqueline      1979 M        -1   -1   -1   -1 
+1D Ramseyer David Simon 1979 B        -1   -1   -1   -1 
+1D Rufilo Wagner        1978 B        -1   -1   -1   -1 
+1D Ryser Alexandra      1979 M        -1   -1   -1   -1 
+1D Savastano Katja      1979 M        -1   -1   -1   -1 
+1D Selig Gitta Jessica  1979 M        -1   -1   -1   -1 
+1D Stalder Jacqueline   1979 M        -1   -1   -1   -1 
+1D Stohler Deborah  Sus 1979 M        -1   -1   -1   -1 
+1D Thaiparampil Boney   1978 B        -1   -1   -1   -1 
+1D Vanek Michael Jan    1979 B        -1   -1   -1   -1 
+1D Von Allmen JÇrìme    1979 B        -1   -1   -1   -1 
+2A Di Geronimo Laura    1978 M        -1   -1   -1   -1 
+2A Furrer Andreas       1978 B        -1   -1   -1   -1 
+2A Geistert Zoâ         1977 M        -1   -1   -1   -1 
+2A GrÅnewald Joâl       1978 B        -1   -1   -1   -1 
+2A Gucek Andrea         1977 M        -1   -1   -1   -1 
+2A Hess Chantal  Nurith 1978 M        -1   -1   -1   -1 
+2A Heusser Gabriel      1978 B        -1   -1   -1   -1 
+2A Lesslauer Annegret V 1979 M        -1   -1   -1   -1 
+2A Leuzinger Benjamin   1978 B        -1   -1   -1   -1 
+2A Lustenberger Nathali 1978 M        -1   -1   -1   -1 
+2A Mariakis Eugenie     1978 M        -1   -1   -1   -1 
+2A Meury Diana          1977 M        -1   -1   -1   -1 
+2A Mooren Stephan       1977 B        -1   -1   -1   -1 
+2A Ordas Tania          1977 M        -1   -1   -1   -1 
+2A Pieth Jenny          1978 M        -1   -1   -1   -1 
+2A Roth Stefanie        1978 M        -1   -1   -1   -1 
+2A Salerno Floriana  Ca 1978 M        -1   -1   -1   -1 
+2A Strîsslin Claudia  L 1978 M        -1   -1   -1   -1 
+2A Stubbings Neil       1978 B        -1   -1   -1   -1 
+2A Winter David         1978 B        -1   -1   -1   -1 
+2B Alge Mathias         1978 B        -1   -1   -1   -1 
+2B Annen Silke          1978 M        -1   -1   -1   -1 
+2B Baggiarini Diego     1978 B        -1   -1   -1   -1 
+2B Born Nadja  Petra    1978 M        -1   -1   -1   -1 
+2B BÅnter Nadine        1978 M        -1   -1   -1   -1 
+2B Colanero Damiano     1977 B        -1   -1   -1   -1 
+2B De Sa Yolanda        1978 M        -1   -1   -1   -1 
+2B Dubler Viviane Regin 1978 M        -1   -1   -1   -1 
+2B FÑh Claudia          1978 M        -1   -1   -1   -1 
+2B Fernandez Monica     1977 M        -1   -1   -1   -1 
+2B Gilli Andrea         1978 M        -1   -1   -1   -1 
+2B Kaufmann Sebastian   1978 B        -1   -1   -1   -1 
+2B Lachat Nadine        1977 M        -1   -1   -1   -1 
+2B Mayer Dominique Phil 1977 B        -1   -1   -1   -1 
+2B Ryser Philipp  Werne 1978 B        -1   -1   -1   -1 
+2B Schwizer Monique     1978 M        -1   -1   -1   -1 
+2B Tschui Susanna       1978 M        -1   -1   -1   -1 
+2B Urfer Marco Daniel   1977 B        -1   -1   -1   -1 
+2B Vasta Sara  Filomena 1977 M        -1   -1   -1   -1 
+2B Werlen Anne-Lea      1978 M        -1   -1   -1   -1 
+2C Andjelic Simone  Sim 1978 M        -1   -1   -1   -1 
+2C Berger Nathalie      1977 M        -1   -1   -1   -1 
+2C Binet Nicolas Samuel 1978 B        -1   -1   -1   -1 
+2C DÅnki Patrick        1977 B        -1   -1   -1   -1 
+2C Erdin Salome         1978 M        -1   -1   -1   -1 
+2C Haas Mirko           1978 B        -1   -1   -1   -1 
+2C Hess Simone          1978 M        -1   -1   -1   -1 
+2C Jeger Marianne  Alic 1978 M        -1   -1   -1   -1 
+2C Kalbermatten Silvia  1978 M        -1   -1   -1   -1 
+2C Kruslin Nada  Paola  1978 M        -1   -1   -1   -1 
+2C Lavicka Nicole  Cath 1978 M        -1   -1   -1   -1 
+2C Meury Anja           1978 M        -1   -1   -1   -1 
+2C Montero Marcos  Anto 1978 B        -1   -1   -1   -1 
+2C Oreiller ValÇrie     1978 M        -1   -1   -1   -1 
+2C Poloni Sandra        1978 M        -1   -1   -1   -1 
+2C Resch Nicole         1979 M        -1   -1   -1   -1 
+2C Rodic Dijana         1978 M        -1   -1   -1   -1 
+2C Schnyder Sylvia  Fra 1978 M        -1   -1   -1   -1 
+2C Solanki Devina       1977 M        -1   -1   -1   -1 
+2C SÅss Jan Ulrich      1977 B        -1   -1   -1   -1 
+2C Thomas Evelyn        1978 M        -1   -1   -1   -1 
+2C Winter Rahel         1978 M        -1   -1   -1   -1 
+2C Wymann Oliver        1978 B        -1   -1   -1   -1 
+2C ZenhÑusern Patrick   1977 B        -1   -1   -1   -1 
+3A Bopp Marie-Claire    1977 M        -1   -1   -1   -1 
+3A Borostyan Andrea     1976 M        -1   -1   -1   -1 
+3A Fridland Schira      1976 M        -1   -1   -1   -1 
+3A Heitz Carole         1977 M        -1   -1   -1   -1 
+3A Hess Daliah          1976 M        -1   -1   -1   -1 
+3A Hungerland Ruth      1976 M        -1   -1   -1   -1 
+3A Jeger Claudine       1977 M        -1   -1   -1   -1 
+3A Koenig Myriam        1977 M        -1   -1   -1   -1 
+3A Loetscher Christine  1977 M        -1   -1   -1   -1 
+3A Montero Maria Dolore 1977 M        -1   -1   -1   -1 
+3A Obrist Fiona         1976 M        -1   -1   -1   -1 
+3A Oddi Manuela         1977 M        -1   -1   -1   -1 
+3A Ruch Evelyn          1977 M        -1   -1   -1   -1 
+3A Sanchez Concepcion   1976 M        -1   -1   -1   -1 
+3A Schlienger Denise    1977 M        -1   -1   -1   -1 
+3A Schmid Zita          1976 M        -1   -1   -1   -1 
+3A Secci Natascha       1976 M        -1   -1   -1   -1 
+3A Steinmetz Stephanie  1976 M        -1   -1   -1   -1 
+3A Stoecklin Fleur      1976 M        -1   -1   -1   -1 
+3A Streuli Michäle      1977 M        -1   -1   -1   -1 
+3A Trillo Cristina      1977 M        -1   -1   -1   -1 
+3A Tschopp Miriam       1977 M        -1   -1   -1   -1 
+3A Ursprung Ariane      1977 M        -1   -1   -1   -1 
+3A Wisniewski Aleksandr 1977 M        -1   -1   -1   -1 
+3B Avaran Joyal         1976 B        -1   -1   -1   -1 
+3B Baudraz Raphael      1977 B        -1   -1   -1   -1 
+3B Crescenzo Samanta    1976 M        -1   -1   -1   -1 
+3B Donner Nora          1977 M        -1   -1   -1   -1 
+3B Ebenstreit Caroline  1977 M        -1   -1   -1   -1 
+3B Goldblum Lea         1977 M        -1   -1   -1   -1 
+3B Heinz Lars  Adrian   1975 M        -1   -1   -1   -1 
+3B Herrera Esteban      1976 B        -1   -1   -1   -1 
+3B Huber David          1977 B        -1   -1   -1   -1 
+3B Kirchhoff Simone     1976 M        -1   -1   -1   -1 
+3B Kruslin Filip        1976 B        -1   -1   -1   -1 
+3B McDaniel Neil        1977 B        -1   -1   -1   -1 
+3B Mutti Vera           1977 M        -1   -1   -1   -1 
+3B Rama Alberto         1977 B        -1   -1   -1   -1 
+3B Rieder Timo          1977 B        -1   -1   -1   -1 
+3B Rizzo Francesco      1975 B        -1   -1   -1   -1 
+3B Sammarruco Bruno     1977 B        -1   -1   -1   -1 
+3B Schreyvogel Maurus   1976 B        -1   -1   -1   -1 
+3B Thînen Joachim Bengt 1977 B        -1   -1   -1   -1 
+3B Vazquez Susana       1976 M        -1   -1   -1   -1 
+3B Velebny Milan        1977 B        -1   -1   -1   -1 
+3B Weiss Daniela Anja   1977 M        -1   -1   -1   -1 
+3B Zmilacher Solange    1977 M        -1   -1   -1   -1 
+3C Burkhardt David      1976 B        -1   -1   -1   -1 
+3C Egger Barbara        1977 M        -1   -1   -1   -1 
+3C Elia Mandri Anisabel 1976 M        -1   -1   -1   -1 
+3C Enguita Jorge        1976 B        -1   -1   -1   -1 
+3C Gasser Andrea        1976 M        -1   -1   -1   -1 
+3C Genitsch Julia       1976 M        -1   -1   -1   -1 
+3C Haas Rajka           1977 M        -1   -1   -1   -1 
+3C Hofmann Denise       1976 M        -1   -1   -1   -1 
+3C Hueber Susanne       1977 M        -1   -1   -1   -1 
+3C Jeker Philipp Franáo 1977 B        -1   -1   -1   -1 
+3C Kalkos Thanasis      1975 B        -1   -1   -1   -1 
+3C Kaminski Michal      1977 B        -1   -1   -1   -1 
+3C Keller Salome        1977 M        -1   -1   -1   -1 
+3C Liebherr Benjamin    1977 B        -1   -1   -1   -1 
+3C Liniger Simone       1977 M        -1   -1   -1   -1 
+3C Loew Tobias          1976 B        -1   -1   -1   -1 
+3C Parcina Damir        1976 B        -1   -1   -1   -1 
+3C Rothschild Noemi     1976 M        -1   -1   -1   -1 
+3C Schneider Christian  1977 B        -1   -1   -1   -1 
+3C Von Allmen Julian    1977 B        -1   -1   -1   -1 
+3C Waltuch Tamar        1977 M        -1   -1   -1   -1 
+4A Da Silva Ana Maria   1975 M        -1   -1   -1   -1 
+4A Engelberger Stefan   1976 B        -1   -1   -1   -1 
+4A Erni Benedikt        1975 B        -1   -1   -1   -1 
+4A Glasstetter Irene    1975 M        -1   -1   -1   -1 
+4A Grossniklaus Michael 1976 B        -1   -1   -1   -1 
+4A Jermann Stefanie     1976 M        -1   -1   -1   -1 
+4A Kessler Jana         1976 M        -1   -1   -1   -1 
+4A Koenig Rahel         1976 M        -1   -1   -1   -1 
+4A Kull Jens            1975 B        -1   -1   -1   -1 
+4A Lerch Noâmi          1976 M        -1   -1   -1   -1 
+4A Metzger Andrea       1976 M        -1   -1   -1   -1 
+4A Meyer Tanja          1976 M        -1   -1   -1   -1 
+4A Ristic Irena         1976 M        -1   -1   -1   -1 
+4A Schatz Cornelia      1976 M        -1   -1   -1   -1 
+4A Schaub Eva-Daniela   1976 M        -1   -1   -1   -1 
+4A Schmid Natalie       1976 M        -1   -1   -1   -1 
+4A Stîri Reto           1975 B        -1   -1   -1   -1 
+4A Triàu Van Ha         1976 B        -1   -1   -1   -1 
+4A Vanek Barbara        1976 M        -1   -1   -1   -1 
+4A Wagner Dominique     1975 B        -1   -1   -1   -1 
+4A Weiss AndrÇ          1975 B        -1   -1   -1   -1 
+4B Banz Caroline        1976 M        -1   -1   -1   -1 
+4B Enache Caterina      1976 M        -1   -1   -1   -1 
+4B Hottiger Miriam      1976 M        -1   -1   -1   -1 
+4B Leonhardt Andrea     1975 M        -1   -1   -1   -1 
+4B Leugger Rahel        1974 M        -1   -1   -1   -1 
+4B Lima Ivone           1976 M        -1   -1   -1   -1 
+4B Lima Nadine          1976 M        -1   -1   -1   -1 
+4B Lîbb Monika          1976 M        -1   -1   -1   -1 
+4B Manetsch Andrietta   1975 M        -1   -1   -1   -1 
+4B Moser Rebekka        1974 M        -1   -1   -1   -1 
+4B Pauchard Susan       1976 M        -1   -1   -1   -1 
+4B Pittori Claudia      1976 M        -1   -1   -1   -1 
+4B Pittori Nadine       1976 M        -1   -1   -1   -1 
+4B Savic Dragana        1975 M        -1   -1   -1   -1 
+4B Schmid Lucia         1976 M        -1   -1   -1   -1 
+4B Schnelli Fabienne    1976 M        -1   -1   -1   -1 
+4B Schroller Petra      1976 M        -1   -1   -1   -1 
+4B Scimeca Maria-Teresa 1975 M        -1   -1   -1   -1 
+4B Tobler Christine     1976 M        -1   -1   -1   -1 
+4B Tschui Teresa        1976 M        -1   -1   -1   -1 
+4B Tschumi Maya         1975 M        -1   -1   -1   -1 
+4B Vinagre Rosa Maria   1974 M        -1   -1   -1   -1 
+4C Arnold Lea           1975 M        -1   -1   -1   -1 
+4C Balsamo Davide       1976 B        -1   -1   -1   -1 
+4C Balsamo Massimiliano 1975 B        -1   -1   -1   -1 
+4C Borostyan Dora       1975 M        -1   -1   -1   -1 
+4C Cuesta Elvira        1975 M        -1   -1   -1   -1 
+4C Di Bauda Angela      1976 M        -1   -1   -1   -1 
+4C FÑh Barbara          1976 M        -1   -1   -1   -1 
+4C Gasparoli Stefanie   1976 M        -1   -1   -1   -1 
+4C Gratwohl Stephanie   1976 M        -1   -1   -1   -1 
+4C Iannucci Samantha    1975 M        -1   -1   -1   -1 
+4C Kristmann Fabian     1977 B        -1   -1   -1   -1 
+4C Leuzinger Sebastian  1976 B        -1   -1   -1   -1 
+4C Pasquariello Claudio 1975 B        -1   -1   -1   -1 
+4C Ramsauer Katrin      1976 M        -1   -1   -1   -1 
+4C Rodriguez Emilia     1975 M        -1   -1   -1   -1 
+4C Spichty Simone       1975 M        -1   -1   -1   -1 
+4C Syed Shakira         1976 M        -1   -1   -1   -1 
+4C Wicki Nadia          1976 M        -1   -1   -1   -1 
+4C Yildirim Yasin       1975 B        -1   -1   -1   -1 
+5A Aguirre JosÇ Alejand 1973 B        -1   -1   -1   -1 
+5A Bachmann Thomas      1975 B        -1   -1   -1   -1 
+5A Barmet Michelle      1975 M        -1   -1   -1   -1 
+5A Bethke Sven          1974 B        -1   -1   -1   -1 
+5A Cuppens Sandra       1975 M        -1   -1   -1   -1 
+5A Domb David           1974 B        -1   -1   -1   -1 
+5A DÅrr Benjamin        1974 B        -1   -1   -1   -1 
+5A Egger Karin          1975 M        -1   -1   -1   -1 
+5A Fischer Kaspar       1975 B        -1   -1   -1   -1 
+5A Hauzenberger Christo 1974 B        -1   -1   -1   -1 
+5A Keiser Sven          1974 B        -1   -1   -1   -1 
+5A Kiefer Simone        1974 M        -1   -1   -1   -1 
+5A Kîhler Barbara       1975 M        -1   -1   -1   -1 
+5A Moor Andreas         1975 B        -1   -1   -1   -1 
+5A Rodriguez Sonia      1974 M        -1   -1   -1   -1 
+5A Ruepp Tabith         1973 M        -1   -1   -1   -1 
+5A Thommen Nadine       1975 M        -1   -1   -1   -1 
+5A Ulrich Florence      1974 M        -1   -1   -1   -1 
+5A Wundrig Sabine       1975 M        -1   -1   -1   -1 
+5B Birrer Corinne       1975 M        -1   -1   -1   -1 
+5B Fankhauser Fabian    1974 B        -1   -1   -1   -1 
+5B Huynh Hoai Thanh     1974 B        -1   -1   -1   -1 
+5B Jordi Sabine         1974 M        -1   -1   -1   -1 
+5B Kern  (Blatter) Mich 1975 M        -1   -1   -1   -1 
+5B Lichtsteiner Salome  1975 M        -1   -1   -1   -1 
+5B Meyer Adrian         1975 B        -1   -1   -1   -1 
+5B Meyer Christine      1974 M        -1   -1   -1   -1 
+5B Niklaus Dunja        1974 M        -1   -1   -1   -1 
+5B Perregaux GÇdÇon     1975 B        -1   -1   -1   -1 
+5B Stefanutti Marco     1975 B        -1   -1   -1   -1 
+5B Triàu Dung Ngoc      1975 M        -1   -1   -1   -1 
+5B Vitorino Christian   1975 B        -1   -1   -1   -1 
+5B Wymann Patrick       1975 B        -1   -1   -1   -1 
+5C Binder Krisztina     1974 M        -1   -1   -1   -1 
+5C Burckhardt Philipp   1975 B        -1   -1   -1   -1 
+5C Cortizo Juan         1975 B        -1   -1   -1   -1 
+5C D'Avino Andreas      1975 B        -1   -1   -1   -1 
+5C Di Iorio Lucia       1974 M        -1   -1   -1   -1 
+5C Geser Eveline        1975 M        -1   -1   -1   -1 
+5C Humek Karin          1974 M        -1   -1   -1   -1 
+5C Jeger Patricia       1975 M        -1   -1   -1   -1 
+5C Ripli Jasna          1975 M        -1   -1   -1   -1 
+5C Rossi Laura          1974 M        -1   -1   -1   -1 
+5C Scarpa Natascia      1974 M        -1   -1   -1   -1 
+5C SchÑr Florian        1974 B        -1   -1   -1   -1 
+5C Schmidlin Simone     1974 M        -1   -1   -1   -1 
+5C Servetti Claudia     1974 M        -1   -1   -1   -1 
+5C Staub Petra          1974 M        -1   -1   -1   -1 
+5C Vogt Manuela         1973 M        -1   -1   -1   -1 
+5C Winter Marc          1973 B        -1   -1   -1   -1 
+5C Zitnan Gabi          1974 M        -1   -1   -1   -1 
+5D De Vita Massimo      1973 B        -1   -1   -1   -1 
+5D Debrunner Lilian     1974 M        -1   -1   -1   -1 
+5D Edele David          1974 B        -1   -1   -1   -1 
+5D Ganzoni Susanne      1974 M        -1   -1   -1   -1 
+5D Gende Sonia          1975 M        -1   -1   -1   -1 
+5D Gerber Philippe      1974 B        -1   -1   -1   -1 
+5D Gonzalez Isabel Mari 1975 M        -1   -1   -1   -1 
+5D Hammer Karin         1975 M        -1   -1   -1   -1 
+5D Kriesemer Nadine Fle 1974 M        -1   -1   -1   -1 
+5D Lavaggi Romana       1974 M        -1   -1   -1   -1 
+5D LÅscher Mirjam       1975 M        -1   -1   -1   -1 
+5D Pascual Javier       1974 B        -1   -1   -1   -1 
+5D Pernus Natasa        1975 M        -1   -1   -1   -1 
+5D Rey Beatriz          1975 M        -1   -1   -1   -1 
+5D Tomasek Peter        1973 B        -1   -1   -1   -1 
+5D Venturini Daniela    1975 M        -1   -1   -1   -1 
+5D Yokoyama Kaede       1973 M        -1   -1   -1   -1 
+6A Bart Rahel  Ann      1973 M        -1   -1   -1   -1 
+6A Berger Tanja         1972 M        -1   -1   -1   -1 
+6A Buchli Rezia  Anna   1973 M        -1   -1   -1   -1 
+6A Colanero Cinzia      1973 M        -1   -1   -1   -1 
+6A D'Angelo Maurizio    1974 B        -1   -1   -1   -1 
+6A Di Giorgio Patrick   1973 B        -1   -1   -1   -1 
+6A Glatt Raoul          1972 B        -1   -1   -1   -1 
+6A Goldstein Corina  Is 1973 M        -1   -1   -1   -1 
+6A Heckendorn Felix     1973 B        -1   -1   -1   -1 
+6A Kaspar Angelika      1972 M        -1   -1   -1   -1 
+6A Kihm JÅrg Marc       1973 B        -1   -1   -1   -1 
+6A Kirchhoff Katalin St 1972 M        -1   -1   -1   -1 
+6A Leon Beatriz         1974 M        -1   -1   -1   -1 
+6A Mamie Alexandra      1973 M        -1   -1   -1   -1 
+6A Marangi Angelo Piero 1974 B        -1   -1   -1   -1 
+6A Marti Balz           1974 B        -1   -1   -1   -1 
+6A Pagotto Laura        1973 M        -1   -1   -1   -1 
+6A Pangallo Katia       1973 M        -1   -1   -1   -1 
+6A Pflugshaupt Michael  1973 B        -1   -1   -1   -1 
+6A Poni Daniel          1973 B        -1   -1   -1   -1 
+6A Stadler Tatiana  Lor 1973 M        -1   -1   -1   -1 
+6A Thommen Tatjana      1973 M        -1   -1   -1   -1 
+6A Werro Michel         1974 B        -1   -1   -1   -1 
+6A WÅrmlin Daniel Marc  1973 B        -1   -1   -1   -1 
+6A WÅthrich Karin       1974 M        -1   -1   -1   -1 
+6B Bucher Astrid        1973 M        -1   -1   -1   -1 
+6B Campana Sabine       1973 M        -1   -1   -1   -1 
+6B Dîrhîfer Susanne     1972 M        -1   -1   -1   -1 
+6B Fabiano Angelo       1974 B        -1   -1   -1   -1 
+6B Grossenbacher Sven   1972 B        -1   -1   -1   -1 
+6B Gschwind Susanne Eli 1972 M        -1   -1   -1   -1 
+6B Hell Clarisse        1974 M        -1   -1   -1   -1 
+6B Imhof Regula Rita    1974 M        -1   -1   -1   -1 
+6B Keller Anita Meia    1973 M        -1   -1   -1   -1 
+6B Kleewein Patrice Ale 1973 B        -1   -1   -1   -1 
+6B Lehmann Isabelle     1973 M        -1   -1   -1   -1 
+6B Madîrin Grischa      1973 B        -1   -1   -1   -1 
+6B Nair Preethi Devi    1973 M        -1   -1   -1   -1 
+6B Oser Jeannine        1973 M        -1   -1   -1   -1 
+6B Papiro Martina       1974 M        -1   -1   -1   -1 
+6B Pizzoleo Luciana     1972 M        -1   -1   -1   -1 
+6B Roduner Patricia     1974 M        -1   -1   -1   -1 
+6B Scandaglia Claudia   1974 M        -1   -1   -1   -1 
+6B Sogos Debora         1973 M        -1   -1   -1   -1 
+6B Spitaleri Alessandro 1974 B        -1   -1   -1   -1 
+6B Streuli Natalie      1973 M        -1   -1   -1   -1 
+6B Tschopp Catherine    1973 M        -1   -1   -1   -1 
+6B Von Bidder Florian C 1973 B        -1   -1   -1   -1 
+6B Von der MÅhll Antoin 1975 M        -1   -1   -1   -1 
+6B Waldmeier Priska     1974 M        -1   -1   -1   -1 
+6C Balmat Alexandra     1973 M        -1   -1   -1   -1 
+6C Becker Jacqueline    1974 M        -1   -1   -1   -1 
+6C De Vito Monika       1973 M        -1   -1   -1   -1 
+6C Emmel Philipp        1973 B        -1   -1   -1   -1 
+6C Gende Anna Isabel    1974 M        -1   -1   -1   -1 
+6C Gschwind Simone      1973 M        -1   -1   -1   -1 
+6C HÑgeli Gabriela      1973 M        -1   -1   -1   -1 
+6C Knapp Anja           1973 M        -1   -1   -1   -1 
+6C LÑsser Jasmin        1974 M        -1   -1   -1   -1 
+6C Luchsinger Eva       1973 M        -1   -1   -1   -1 
+6C Marti Colette        1975 M        -1   -1   -1   -1 
+6C Muttenzer Beat       1974 B        -1   -1   -1   -1 
+6C Piccinato Samanta    1973 M        -1   -1   -1   -1 
+6C Poredos Danica       1974 M        -1   -1   -1   -1 
+6C Prikoszovich Walter  1974 B        -1   -1   -1   -1 
+6C Rapp Eva             1974 M        -1   -1   -1   -1 
+6C Richards Rachel      1972 M        -1   -1   -1   -1 
+6C Rosenthaler Sabine   1974 M        -1   -1   -1   -1 
+6C Secci Mara           1972 M        -1   -1   -1   -1 
+6C Sohrmann Nicole      1974 M        -1   -1   -1   -1 
+6C Splendore Sabrina    1974 M        -1   -1   -1   -1 
+6C SprÅnglin Matthias   1972 B        -1   -1   -1   -1 
+6C Thînen Urs           1974 B        -1   -1   -1   -1 
+6C Tittel Jenifer       1973 M        -1   -1   -1   -1 
+6C Triàu Hanh Ngoc      1973 M        -1   -1   -1   -1 
+6C Walliser Christelle  1974 M        -1   -1   -1   -1 
+6C Zanetti Sandro       1974 B        -1   -1   -1   -1 
+7A Borner Sandra        1972 M        -1   -1   -1   -1 
+7A Goilav BÇatrice      1972 M        -1   -1   -1   -1 
+7A Gschwind Claudia     1972 M        -1   -1   -1   -1 
+7A Kurtz Angela         1972 M        -1   -1   -1   -1 
+7A Lauria Fabio         1972 B        -1   -1   -1   -1 
+7A Laverriäre Corinne   1971 M        -1   -1   -1   -1 
+7A Leber Marc Alexander 1972 B        -1   -1   -1   -1 
+7A Lehtinen Antreas     1971 B        -1   -1   -1   -1 
+7A Munoz Pablo          1972 B        -1   -1   -1   -1 
+7A Pankow Esther        1973 M        -1   -1   -1   -1 
+7A Pfrunder Arabelle    1972 M        -1   -1   -1   -1 
+7A Ritter Rebekka       1972 M        -1   -1   -1   -1 
+7A Schnider Pascal      1972 B        -1   -1   -1   -1 
+7A Schraner Simone      1973 M        -1   -1   -1   -1 
+7A Stalder Franziska    1972 M        -1   -1   -1   -1 
+7A Tejero Isaac         1972 B        -1   -1   -1   -1 
+7A Vonzun Reto          1972 B        -1   -1   -1   -1 
+7A Zimmermann Stephen   1972 B        -1   -1   -1   -1 
+7B Bacchini Renate      1972 M        -1   -1   -1   -1 
+7B Battaglia Gabriela   1972 M        -1   -1   -1   -1 
+7B Freund Nathalie      1972 M        -1   -1   -1   -1 
+7B Gasser Sibylle       1972 M        -1   -1   -1   -1 
+7B Hafner Manuela       1972 M        -1   -1   -1   -1 
+7B Link Claudia         1972 M        -1   -1   -1   -1 
+7B Metzger Ursula Nelli 1973 M        -1   -1   -1   -1 
+7B SchÅrch Franziska    1972 M        -1   -1   -1   -1 
+7B Toballa Nicole       1972 M        -1   -1   -1   -1 
+7B Torsello Sonia       1972 M        -1   -1   -1   -1 
+7B Zingerli Claudia     1973 M        -1   -1   -1   -1 
+7C Faller Michäle       1973 M        -1   -1   -1   -1 
+7C Garatti Sylvia       1973 M        -1   -1   -1   -1 
+7C Garcia Maria del Pil 1973 M        -1   -1   -1   -1 
+7C Graf Cornelia        1972 M        -1   -1   -1   -1 
+7C Heimers Stefan       1972 B        -1   -1   -1   -1 
+7C Huynh Phong Thanh    1972 B        -1   -1   -1   -1 
+7C Kaminski Izabela     1971 M        -1   -1   -1   -1 
+7C Lichtneckert Robert  1973 B        -1   -1   -1   -1 
+7C Martinelli Olivia    1971 M        -1   -1   -1   -1 
+7C Reinhard (Gnoza) Car 1973 M        -1   -1   -1   -1 
+7C Schilling Andrea     1973 M        -1   -1   -1   -1 
+7C Spada Pascale        1973 M        -1   -1   -1   -1 
+7C Spoerri Manuel       1972 B        -1   -1   -1   -1 
+7C Studer Chantal       1972 M        -1   -1   -1   -1 
+7D Baudraz Michel       1973 B        -1   -1   -1   -1 
+7D Budelacci Orlando    1972 B        -1   -1   -1   -1 
+7D Buxtorf Rosine       1973 M        -1   -1   -1   -1 
+7D Fotiou Mirella       1973 M        -1   -1   -1   -1 
+7D Fraga Sonia          1973 M        -1   -1   -1   -1 
+7D Kummer Andreas       1972 B        -1   -1   -1   -1 
+7D Rueff Nadine         1973 M        -1   -1   -1   -1 
+7D Salib Alexandra      1972 M        -1   -1   -1   -1 
+7D Schaller Bettina     1973 M        -1   -1   -1   -1 
+7D Schwarb Caroline     1971 M        -1   -1   -1   -1 
+7D Stracuk Klara        1972 M        -1   -1   -1   -1 
+8A Amstutz Pia          1971 M        -1   -1   -1   -1 
+8A Ballmer SÇverine     1971 M        -1   -1   -1   -1 
+8A Battista Sara        1972 M        -1   -1   -1   -1 
+8A Da Costa Inàs        1969 M        -1   -1   -1   -1 
+8A Gasparoli Maja       1972 M        -1   -1   -1   -1 
+8A Gysin Brigitte       1972 M        -1   -1   -1   -1 
+8A KlÑusler Christine   1971 M        -1   -1   -1   -1 
+8A Loppin Corinne       1972 M        -1   -1   -1   -1 
+8A Pfyffer Sabine       1973 M        -1   -1   -1   -1 
+8A Renggli Sarah        1970 M        -1   -1   -1   -1 
+8A San Roman Yessica    1971 M        -1   -1   -1   -1 
+1A Scaldaferri Teresa   1972 M        -1   -1   -1   -1 
+8A Sch1Bder Anita      1971 M        -1   -1   -1   -1 
+8A Sobieszek 1C        1972 M        -1   -1   -1   -1 
+8A Tobler Nicole    1D 1972 M        -1   -1   -1   -1 
+8B Baumgartner Nathalie 1971 M 2A    -1   -1   -1   -1 
+8B Buser Franziska      1971 M        -1   -1   -1   -1 
+8B BÅhler Bettina       1971 M        -1   -1   -1   -1 
+8B Castelli Lara        1970 M        -1   -1   -1   -1 
+3 Darge Catherine     ¥M    ˇˇˇˇˇˇˇˇld 1.3 (8BGari3Bi Maria    1972 M        -1   -1   -1   -1 
+8B Gari3Bi Maria       1970 M        -1   -1   -1   -1 
+8B Itschner Iv3C       1970 B        -1   -1   -1   -1 
+8B Liatowitsch Daniel4 1857 B        -1   -1   -1   -1 
+8B Mohler Rahel         1971 M  4B   -1   -1   -1   -1 
+8B NÇmeth Thomas        1969 B        -1   -1   -1   -1 
+8B Obolensky Konstantin 1971 B        -1   -1   -1   -1 
+8B Pezzetta Daniel      1972 B        -1   -1   -1   -1 
+8 Buschnig Ralph Stefa¥B    ˇˇˇˇˇˇˇˇ.  $Memo8BRehma 1972 B        -1   -1   -1   -1 
+8B Rehma5Chmed         1970 B        -1   -1   -1   -1 
+8B Ribi Maja   5D      1971 M        -1   -1   -1   -1 
+8B Schmidlin Vera      16694 M        -1   -1   -1   -1 
+8C Borner Pia           1970 M   6   -1   -1   -1   -1 
+8C Bur Franziska        1971 M        -1   -1   -1   -1 
+8C Burri Lena           1972 M        -1   -1   -1   -1 
+8C Cossu Ada            1973 M        -1   -1   -1   -1 
+8C                   7B 1971 B        -1   -1   -1   -1 
+8C Faâdi 7Cc           1972 B        -1   -1   -1   -1 
+8C Gamberini Mel7De    1972 M        -1   -1   -1   -1 
+8C Huynh VÉn            14338 A        -1   -1   -1   -1 
+8C KÅng Stefan          1970 B       -1   -1   -1   -1 
+8C Meury Carol          1970 M        -1   -1   -1   -1 
+8C Meyer Bettina        1971 M        -1   -1   -1   -1 
+8C Pankow Kaspar        1971 B        -1   -1   -1   -1 
+8C 3henberger Philipp 1971 B        -1   -1   -1   -1 
+8C Romeo R8Bardo       1972 B        -1   -1   -1   -1 
+8C Rossi Tatjana 8    1971 M        -1   -1   -1   -1 
+8C Schermesser Claudia   691 8     ˇˇˇˇˇˇˇˇfile int8CSpitaleri John      ≤B    ˇˇˇˇˇˇˇˇpy mus   -1   -1   -1   -1 
+8C Spitaleri John       1970 B        -1   -1   -1   -1 
+8C Vogt Andrea          1971 M        -1   -1   -1   -1 
+8C Zihlmann Oliver      1972 B        -1   -1   -1   -1 
+8D Aloe Nadia Eva       1972 M        -1   -1   -1   -1 
+8D Cossu Giovanna       1971 M        -1   -1   -1   -1 
+8D Dallafior Alessandra 1972 M        -1   -1   -1   -1 
+8D Faggiorini Miriam    1972 M        -1   -1   -1   -1 
+8D Farahmand Patricia   1971 M        -1   -1   -1   -1 
+8D Gerometta Giada      1972 M        -1   -1   -1   -1 
+8D Gysin Daniela        1971 M        -1   -1   -1   -1 
+8D Hostettler Katrin    1971 M        -1   -1   -1   -1 
+8D Keller Nathalie      1971 M        -1   -1   -1   -1 
+8D Lurie Gaby           1971 M        -1   -1   -1   -1 
+8D Matas Mercedes       1971 M        -1   -1   -1   -1 
+8D Moser Nathalie       1972 M        -1   -1   -1   -1 
+8D Rohringer Christina  1971 M        -1   -1   -1   -1 
+8D Ruf Isabelle         1970 M        -1   -1   -1   -1 
+8D Ruf Vanessa          1972 M        -1   -1   -1   -1 
+8D Schnell Patricia     1971 M        -1   -1   -1   -1 
+8D Serra Gianna         1972 M        -1   -1   -1   -1 

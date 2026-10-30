@@ -1,0 +1,16 @@
+
+Nach dieser šbersicht wollen wir uns nun die Syntax und den Gebrauch
+dieser Befehle anschauen:
+
+ - Graphik_Ein;
+      Syntax: Graphik_Ein(Pfad : String);
+   [Pfad] gibt an, in welchem Verzeichnis sich die Graphiktreiber und
+          Schrifts„tze des BGI(Borland Graphic Interface) befinden.
+
+   Diesen Befehl verwendet man, um den Graphikmodus zu initialisieren und
+   zu starten.
+
+ - Graphik_Aus
+      Syntax: Graphik_Aus;
+
+   Dieser Befehl beendet den Graphikmodus und kehrt in den Textmodus zurck.

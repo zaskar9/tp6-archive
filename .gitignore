@@ -1,0 +1,58 @@
+# Turbo Pascal 6.0 archive - .gitignore
+#
+# Source (.PAS, .INC), own data formats (.MEN, .CMP, .SND, .PRW, .TPP,
+# .NOT, .VOC, .SPT, .DAT, .PCX) and the README.TXT files are tracked.
+# Note: .TPP here is the archive's own raw picture format written by
+# PCXTOOLS\PCX_PAS.PAS, not a Turbo Pascal protected-mode unit.
+
+# --- Compiler output -------------------------------------------------
+*.EXE
+*.COM
+*.TPU
+*.OBJ
+*.OVR
+*.OVL
+*.MAP
+
+# --- Turbo Pascal IDE: editor backups, temp files, desktop/config -----
+*.BAK
+*.$$$
+*.DSK
+*.TP
+*.PSM
+
+# --- Borland proprietary files shipped with Turbo Pascal --------------
+# The BGI\ folder and the copies of its drivers and fonts next to the
+# graphics programs. The root README.TXT lists what was there.
+/BGI/
+*.BGI
+*.CHR
+# Run-time library, help file, online help index
+*.TPL
+*.TPH
+TURBO.*
+
+# --- Third-party software found among the sources ---------------------
+# MS-DOS system file and mouse driver
+/SONSTIGE/IO.SYS
+/SONSTIGE/MOUSE.SYS
+# Tools unrelated to the sports day program (HPTRANS.EXE, F2400.EXE
+# and NE.COM are already covered above)
+/SPORTTAG/HPTRANS.CFG
+# Microsoft Anti-Virus checksum file
+CHKLIST.MS
+
+# --- Operating system clutter -----------------------------------------
+.DS_Store
+Thumbs.db
+
+# --- Executables without surviving source -----------------------------
+# These binaries are the only remaining form of their programs and are
+# deliberately not tracked; reconstructing their source is a task for
+# later. Uncomment a line to keep that binary despite the *.EXE rule.
+#!/MASTER/MMIND.EXE
+#!/MASTER/MASTER.EXE
+#!/ASTRO/ASTRO.EXE
+#!/OBERFL/WIN.EXE
+#!/SNDBLS/HOOK.EXE
+#!/COMPOSER/COMPTEST.EXE

@@ -1,0 +1,12 @@
+Procedure CopyRight;
+Begin HGrund.Draw(blue);
+      Write(' MGComputerCompany Examination 2.0');
+      GotoXY(3,25); Write('Copyright 1993 by Michael Grossniklaus, Basel');
+      Copyr.Draw(black);
+      TextColor(red); GotoXY(30,10); Write('MGCC Examination 2.0');
+      TextColor(Black); GotoXY(39,12); Write('by');
+      GotoXY(30,14); Write('Michael Grossniklaus');
+      GotoXY(1,25);
+      Taste:=ReadKey;
+      CopyR.Cancel('°',blue);
+End;

@@ -1,0 +1,16 @@
+Procedure Punktegeben;
+Begin SetColor(black);
+      Str(Points,PoiStr);
+      Str(Lines,LiStr);
+      Str(Level,LeStr);
+      SetTextStyle(3,0,0);
+      SetTextJustify(2,2);
+      SetFillStyle(solidfill,yellow);
+      bar(440,130,535,170);
+      bar(440,180,535,220);
+      bar(440,230,535,270);
+      OutTextXY(532,130,LiStr);
+      OutTextXY(532,180,PoiStr);
+      OutTextXY(532,225,LeStr);
+      SetColor(white);
+End;

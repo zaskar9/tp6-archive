@@ -1,0 +1,26 @@
+Procedure ErrorMessage(Code : Integer);
+Var Rahmen : MessageBox;
+    OKBut : OkButton;
+    State, L : Integer;
+    Txt   : String;
+Begin Case Code of
+       1 : Txt:='Keine offene Datei. Funktion kann nicht ausgefÅhrt werden.';
+       2 : Txt:='Datei wurde schon erstellt. Andere zuerst schliessen.';
+       3 : Txt:='UngÅltige Eingabe. Bitte nochmals versuchen.';
+       4 : Txt:='Funktion im Moment nicht ausfÅhrbar.';
+       Else Txt:='Allgemeiner Fehler bei [$00AB:$A12C]';
+      End;
+      HideCursor;
+      Write(^G);
+      L:=(TextWidth(Txt) div 2)+20;
+      Rahmen.Init(320-L,180,320+L,260,HGrundCol,TitelCol,LineCol,ShadowCol,ConShad,TxtCol);
+      OkBut.Init(270,230,'OK',ButtonCol,HGrundCol,TitelCol,LineCol,ShadowCol,ConShad,TxtCol);
+      Rahmen.BoxOpen('Composer 1.0 Fehlermeldung');
+      OKBut.MakeButton;
+      SetColor(red);
+      OutTextXY(320,215,Txt);
+      ShowCursor;
+      SetColor(black);
+      Repeat Until OkBut.OnButton;
+      Rahmen.BoxClose;
+End;

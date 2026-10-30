@@ -1,0 +1,17 @@
+Willkommen tu MyUtil Tutor 1.0
+
+Sie haben sich fÅr das die öbersicht Åber die in MyUtil enthaltenen
+Mousebefehle entschieden.
+
+Dieses Programm wird Ihnen helfen, diese anzuwenden und zu verstehen.
+
+ZunÑchst aber einmal ein kurzer öberblick Åber diese Befehle:
+
+     - DriverInstalled
+     - ShowCursor
+     - HideCursor
+     - GetPosBut
+     - SetCursorPos
+     - SetGraphicCursor
+     - SetHorizontalLimits
+     - SetVerticalLimits

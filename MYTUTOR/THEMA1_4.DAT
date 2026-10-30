@@ -1,0 +1,19 @@
+
+ - InTextXY
+      Syntax: InTextXY(x,y:Integer; Txt:Sting; VAR s:String; Anz:Word);
+   [x|y] geben die Koordinaten an.
+   [Txt] ist der auszugebende Text.
+   [s]   ist der einzulesende Text.
+   [Anz] gibt, an wiviele Zeichen dieser haben darf.
+
+   Dieser Befehl liest im Graphikmodus, wie Read im Textmodus einen
+   String in eine Variable ein.
+
+ - InIntXY
+      Syntax: InIntXY(x,y:Integer; Txt:Sting; VAR Zahl:Integer);
+   [x|y]  geben die Koordinaten an.
+   [Txt]  ist der auszugebende Text.
+   [Zahl] ist die einzulesende Zahl.
+
+   Dieser Befehl liest im Graphikmodus, wie Read im Textmodus eine
+   Integer-Zahl in eine Variable ein.

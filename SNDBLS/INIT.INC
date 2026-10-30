@@ -1,0 +1,54 @@
+Procedure Init;
+Begin For I:=0 to 8 do
+          if Kanal_On[I] then
+             begin Reset(Datei[I]); J:=0;
+                   Repeat ReadLn(Datei[I],Strng);
+                          Platz:=POS(',',Strng);
+                          Note:=COPY(Strng,0,Platz-1);
+                          Teil2:=COPY(Strng,Platz+1,Length(Strng));
+                          Platz:=POS(',',Teil2);
+                          Okt:=COPY(Teil2,0,Platz-1);
+                          Verz:=COPY(Teil2,Platz+1,Length(Teil2));
+                          FOR A:=1 TO LENGTH(Note) DO Note[A]:=UPCASE(Note[A]);
+                          Repeat Test:=POS(' ',Verz);
+                                 Delete(Verz,Test,1);
+                          Until Test=0;
+                          Val(Okt, Oktave, Fehler);
+                          MEM[SEG(Lange):OFS(Lange)]:=MEM[SEG(Verz):OFS(Verz)+1];
+                          Case UpCase(Lange) Of
+                             'G' : Pause:=4000+1024+200;
+                             'D' : Pause:=3000+512 +100;
+                             'U' : Pause:=2500+256 + 50;
+                             'H' : Pause:=2000+128 + 25;
+                             'P' : Pause:=1500+64  + 12;
+                             'V' : Pause:=1000+32  +  6;
+                             'L' : Pause:=0750+16  +  3;
+                             'B' : Pause:=0666+8   +  1;
+                             'A' : Pause:=0500+4   +  0;
+                             'T' : Pause:=0333+2   +  0;
+                             'S' : Pause:=0250+1   +  0;
+                             'K' : Pause:=0100+0   +  0;
+                             
+                          End;
+                          If Note='*'   then K:=0;
+                          If Note='C'   then K:=1;
+                          If Note='CIS' then K:=2;
+                          If Note='D'   then K:=3;
+                          If Note='DIS' then K:=4;
+                          If Note='E'   then K:=5;
+                          If Note='F'   then K:=6;
+                          If Note='FIS' then K:=7;
+                          If Note='G'   then K:=8;
+                          If Note='GIS' then K:=9;
+                          If Note='A'   then K:=10;
+                          If Note='AIS' then K:=11;
+                          If Note='H'   then K:=12;
+                          Stimme[I,J].Frequenz:=Freq[K];
+                          Stimme[I,J].Oktave:=Oktave;
+                          Stimme[I,J].Pause:=Trunc(Pause*Faktor);
+                          Stimme[I,J].MaxToene:=0;
+                          Inc(J);
+                   Until Eof(Datei[I]);
+                   Stimme[I,1].MaxToene:=J-1;
+             End;
+End;

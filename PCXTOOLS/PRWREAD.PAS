@@ -1,0 +1,43 @@
+Program PrwRead;
+Uses Crt, Dos, Graph;
+Var g     : file;
+    gi    : file of Integer;
+    Treiber, Modus, Breite, Hoehe : Integer;
+    img   : Word;
+    puffer : Pointer;
+    Pfad : String;
+
+Begin ClrScr;
+      Pfad:={'C:\Windows\tset.PRW';}'a:\master.prw';
+      DetectGraph(treiber, modus);
+      InitGraph(Treiber, modus, 'c:\tp\bgi');
+      assign(gi,Pfad);
+      reset(gi);
+      read(gi,breite,hoehe);
+      Close(gi);
+      img:=Imagesize(0,0,breite,hoehe);
+      getmem(puffer,img);
+      assign(g,Pfad);
+      reset(g,img);
+      blockread(g,puffer^,1);
+      close(g);
+      putimage(0,0,puffer^,0);
+      putimage(319,0,puffer^,0);
+      putimage(0,240,puffer^,0);
+      putimage(319,240,puffer^,0);
+      {putimage(200,150,puffer^,0);
+      putimage(400,150,puffer^,0);
+      putimage(0,300,puffer^,0);
+      putimage(200,300,puffer^,0);
+      putimage(400,300,puffer^,0);
+      putimage(0,450,puffer^,0);
+      putimage(200,450,puffer^,0);
+      putimage(400,450,puffer^,0);
+      putimage(450,0,puffer^,0);
+      putimage(450,150,puffer^,0);
+      putimage(450,350,puffer^,0);
+      putimage(450,450,puffer^,0); }
+      freemem(puffer,img);
+      repeat until keypressed;
+      CloseGraph;
+End.

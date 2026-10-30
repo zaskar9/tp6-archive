@@ -1,0 +1,20 @@
+
+ - InRealXY
+      Syntax: InRealXY(x,y:Integer; Txt:String; Zahl:Real);
+   [x|y]  sind die Koordinaten
+   [Txt]  ist der auszugebende Text
+   [Zahl] ist die einzulesende Real-Zahl
+
+   Der Befehl liest im Graphikmodus, wie Read im Textmodus eine Real-Zahl
+   in eine Variable ein.
+
+ - VGA_Ein
+      Syntax: VGA_Ein;
+
+   VGA_Ein aktiviert die direkte Ausgabe von Befehlen auf den Bildschirm.
+
+ - VGA_Aus
+      Syntax: VGA_Aus;
+
+   VGA_Aus stellt den Bildschirm dunkel. Der Bildschirmaufbau kann so aus-
+   gefÅhrt werden, ohne dass man die einzelnen Schritte sieht.

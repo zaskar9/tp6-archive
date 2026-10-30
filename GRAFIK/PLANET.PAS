@@ -1,0 +1,80 @@
+PROGRAM Planet;
+USES CRT, GRAPH;
+
+VAR n, e, f, x, y, c, d, w, v  : INTEGER;
+    Grafiktreiber, Grafikmodus, GRFehler : INTEGER;
+    Pfad : STRING;
+    a, b, z : REAL;
+    Taste : CHAR;
+
+BEGIN
+   ClrScr;
+   Pfad:='d:\TP\BGI';
+   Grafiktreiber:=detect;
+   InitGraph(Grafiktreiber,Grafikmodus,Pfad);
+   GRFehler:=Graphresult;
+   IF GRFehler <> 0 THEN Halt;
+   REPEAT
+   a:=0;
+   z:=0;
+   b:=0;
+   n:=0;
+   ClearDevice;
+   MoveTo(420,240);
+   SETCOLOR(white);
+   SETTEXTSTYLE(1,0,0);
+   OUTTEXTXY(10,05,'Die Planeten');
+   SETTEXTSTYLE(2,0,7);
+   OUTTEXTXY(70,50,'Sonne');
+   OUTTEXTXY(70,090,'Erde');
+   OUTTEXTXY(70,130,'Komet');
+   OUTTEXTXY(70,170,'Planetoid');
+   SETFILLSTYLE(1,yellow);
+   SETCOLOR(yellow);
+   Circle(40,70,20);
+   FLOODFILL(40,70,yellow);
+   SETCOLOR(green);
+   Circle(40,110,11);
+   SETCOLOR(lightblue);
+   Circle(40,150,05);
+   SETCOLOR(lightred);
+   Circle(40,190,2);
+   REPEAT
+         SETFILLSTYLE(1,yellow);
+         SETCOLOR(yellow);
+         Circle(420,350,20);
+         FLOODFILL(420,350,yellow);
+         x:=ROUND(200*cos(a));
+         y:=ROUND(100*sin(a));
+         c:=ROUND(200*cos(b));
+         d:=ROUND(100*sin(b));
+         e:=ROUND(250*cos(z));
+         f:=ROUND(125*sin(z));
+         w:=ROUND(d*0.75);
+         v:=ROUND(c*1.05);
+         SETFILLSTYLE(1,green);
+         SETCOLOR(green);
+         Circle(320+x,350-y,11);
+         SetColor(lightblue);
+         Circle(420+w,240-v,05);
+         SETCOLOR(lightred);
+         Circle(290-e,350+f,2);
+         DELAY(200);
+         IF N=0 THEN Taste:=READKEY;
+         a:=a+PI/45;b:=b+PI/22.5;z:=z+Pi/180;
+         IF a<9*PI THEN BEGIN
+                             SETFILLSTYLE(1,Black);
+                             SETCOLOR(black);
+                             Circle(320+x,350-y,11);
+                             Circle(420+w,240-v,05);
+                             Circle(290-e,350+f,2);
+                             PUTPIXEL(290-e,350+f,white);
+                             PutPixel(320+x,350-y,white);
+                             PutPixel(420+w,240-v,white);
+                        END;
+         Inc(n);
+   UNTIL a>9*PI;
+   Taste:=ReadKey;
+   UNTIL Taste='q';
+   CloseGRAPH;
+END.

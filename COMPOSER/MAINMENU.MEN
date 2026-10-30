@@ -1,0 +1,42 @@
+MAINMENU
+D~atei
+      SUBMENU
+      N~eu
+      ™f~fnen
+      S~peichern
+      Speichern a~ls
+      Schl~iessen
+      SEPERATOR
+      B~eenden
+      ENDSUB
+O~ptionen
+      SUBMENU
+      F~arben
+      S~tatuszeile
+      A~usgabeger„t
+      ENDSUB
+L~„nge
+      SUBMENU
+      N~ote
+      P~ause
+      ENDSUB
+S~pielen
+      SUBMENU
+      B~eginnen
+      U~nterbrechen
+      An~halten
+      A~nfang
+      E~nde
+      ENDSUB
+H~ilfe
+      SUBMENU
+      K~ontext
+      I~ndex
+      SEPERATOR
+      šb~er
+      ENDSUB
+Li~zenz
+      SUBMENU
+      R~egistrierung
+      ENDSUB
+ENDMAIN

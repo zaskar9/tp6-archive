@@ -1,0 +1,7 @@
+          SOUND(392);DELAY(500);
+          SOUND(440);DELAY(500);
+          SOUND(587);DELAY(500);
+          SOUND(784);DELAY(500);
+          SOUND(988);DELAY(500);
+          SOUND(1174);DELAY(500);
+          SOUND(1568);DELAY(750);
