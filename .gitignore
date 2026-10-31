@@ -50,9 +50,10 @@ Thumbs.db
 # These binaries are the only remaining form of their programs and are
 # deliberately not tracked; reconstructing their source is a task for
 # later. Uncomment a line to keep that binary despite the *.EXE rule.
-#!/MASTER/MMIND.EXE
-#!/MASTER/MASTER.EXE
 #!/ASTRO/ASTRO.EXE
 #!/OBERFL/WIN.EXE
 #!/SNDBLS/HOOK.EXE
 #!/COMPOSER/COMPTEST.EXE
+# Originals of the two reconstructed Master Mind programs
+#!/MASTER/MASTER.EXE
+#!/MASTER/MMIND.EXE

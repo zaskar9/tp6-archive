@@ -10,23 +10,30 @@
 { order of parameters and the order of the global variables in the data }
 { segment. What the binary does not contain had to be invented: the     }
 { names of procedures, variables and types, comments and formatting.    }
-{ Three oddities of the original are kept on purpose and marked with    }
+{ Four oddities of the original are kept on purpose and marked with    }
 { "sic": Pos(S, ' ') with the arguments swapped, a copy-and-paste slip  }
-{ in the last case of the evaluation, and the 673 in SetViewPort.       }
+{ in the last case of the evaluation, the 673 in SetViewPort, and the   }
+{ GetMaxX/GetMaxY called again after CloseGraph for the error message.  }
+{                                                                       }
+{ Verified: compiled with Turbo Pascal 6.0 (TPC.EXE, no switches, the   }
+{ MOUSE and WRITING units from UNITS) this file gives an EXE that is    }
+{ byte for byte identical to MASTER.EXE. The variable Dummy0 exists     }
+{ only because the EXE has two unused bytes there.                      }
 {                                                                       }
 { Units: CRT, DOS and GRAPH from Turbo Pascal 6.0, MOUSE and WRITING    }
 { from the UNITS folder of this archive. Needs the BGI drivers in       }
 { C:\TP\BGI and a VGA card. Scores are kept in MASTER.INI.              }
 
 Program MasterMind;
-Uses Crt, Dos, Graph, Mouse, Writing;
+Uses Crt, Graph, Dos, Mouse, Writing;   { order as in the EXE }
 
 Type Eintrag = Record
                  Name   : String;      { 256 bytes }
                  Punkte : Integer;     {   2 bytes, record = 258 bytes }
                End;
 
-Var GraphDriver, GraphMode     : Integer;
+Var Dummy0                     : Integer;  { unused; keeps the data layout of the EXE }
+    GraphDriver, GraphMode     : Integer;
     Button, X, Y               : Integer;  { mouse }
     Zug                        : Integer;  { current move, 1..10; 13 = given up }
     Anz                        : Integer;  { pegs placed in the current move }
@@ -57,7 +64,7 @@ Begin ClearDevice;
       SetTextJustify(CenterText,CenterText);
       OutTextXY(320,90,'PROFESSIONAL');
       SetTextStyle(SansSerifFont,HorizDir,9);
-      SetTextJustify(LeftText,BottomText);
+      SetTextJustify(LeftText,TopText);
       SetColor(White);
       For I:=0 to 80 do
           If I mod 5 = 0 then Line(5,I+175,635,I+175);
@@ -78,7 +85,7 @@ Begin ClearDevice;
       OutTextXY(320,300,'by');
       OutTextXY(320,350,'Michael Grossniklaus');
       SetTextStyle(DefaultFont,HorizDir,0);
-      SetTextJustify(LeftText,BottomText);
+      SetTextJustify(LeftText,TopText);
       OutTextXY(380,460,'All Rights Reserved, Basel 1993');
       Taste:=ReadKey;
       ClearDevice;
@@ -112,7 +119,7 @@ Begin J:=0; I:=0;
                                SetFillStyle(SolidFill,Black);
                                Circle(I+55,J+25+150,10);
                                FloodFill(I+55,J+175,Black);
-                               J:=J+50;
+                               Inc(J,50);
                                SetColor(White);
                          Until J>150;
                          J:=0;
@@ -165,13 +172,14 @@ Begin Farbe:=100;
             Until Button=1;
             Delay(500);
             If (Y>=400) and (Y<=450) then
-               begin If (X>= 80) and (X<=160) then Farbe:=DarkGray
-                     else If (X>=160) and (X<=240) then Farbe:=White
-                     else If (X>=240) and (X<=320) then Farbe:=Red
-                     else If (X>=320) and (X<=400) then Farbe:=Yellow
-                     else If (X>=400) and (X<=480) then Farbe:=Green
-                     else If (X>=480) and (X<=560) then Farbe:=Blue;
-               end;
+               Case X of                  { the borders belong to two ranges, the first  }
+                     80..160 : Farbe:=DarkGray;  { one wins; Turbo Pascal 6 accepts this, }
+                    160..240 : Farbe:=White;     { Free Pascal reports duplicate labels   }
+                    240..320 : Farbe:=Red;
+                    320..400 : Farbe:=Yellow;
+                    400..480 : Farbe:=Green;
+                    480..560 : Farbe:=Blue;
+               End;
       Until Farbe in [0..15];
 End;
 
@@ -193,15 +201,12 @@ Begin A:=0; B:=0; C:=0; D:=0;
                      HideCursor;
                      SetFillStyle(SolidFill,Farbe);
                      If ((Zug-1)*48+80<=X) and (Zug*48+80>=X) then
-                        begin If (Y>=150) and (Y<=200) then
-                                 begin FloodFill(Zug*48-24+80,175,Brown); A:=1; end
-                              else If (Y>=200) and (Y<=250) then
-                                 begin FloodFill(Zug*48-24+80,225,Brown); B:=1; end
-                              else If (Y>=250) and (Y<=300) then
-                                 begin FloodFill(Zug*48-24+80,275,Brown); C:=1; end
-                              else If (Y>=300) and (Y<=350) then
-                                 begin FloodFill(Zug*48-24+80,325,Brown); D:=1; end;
-                        end
+                        Case Y of              { overlapping borders again, see WahlFarbe }
+                             150..200 : begin FloodFill(Zug*48-24+80,175,Brown); A:=1; end;
+                             200..250 : begin FloodFill(Zug*48-24+80,225,Brown); B:=1; end;
+                             250..300 : begin FloodFill(Zug*48-24+80,275,Brown); C:=1; end;
+                             300..350 : begin FloodFill(Zug*48-24+80,325,Brown); D:=1; end;
+                        End
                      else Dec(Anz);
                end;
             ShowCursor;
@@ -218,8 +223,8 @@ Begin P:=1;
       While P<>0 do
             begin N:=0;
                   S:='';
+                  PX:=48*Zug+80-24;
                   Repeat
-                        PX:=48*Zug+80-24;
                         PY:=50*N+175;
                         Inc(N);
                         HideCursor;
@@ -244,17 +249,14 @@ End;
 { '1' for every right colour in the wrong place                     }
 { ---------------------------------------------------------------- }
 Function Bewertung(Geheim, Versuch : String) : String;
-Var A, B                : String;
-    B1, B2, B3, B4      : String;
+Var B1, B2, B3, B4      : String;
     Erg                 : String;
     A1, A2, A3, A4      : String;
     FA1, FA2, FA3, FA4,
     FB1, FB2, FB3, FB4  : Byte;
-Begin A:=Geheim;
-      B:=Versuch;
-      Erg:='';
-      B1:=Copy(B,1,1); B2:=Copy(B,2,1); B3:=Copy(B,3,1); B4:=Copy(B,4,1);
-      A1:=Copy(A,1,1); A2:=Copy(A,2,1); A3:=Copy(A,3,1); A4:=Copy(A,4,1);
+Begin Erg:='';
+      B1:=Copy(Versuch,1,1); B2:=Copy(Versuch,2,1); B3:=Copy(Versuch,3,1); B4:=Copy(Versuch,4,1);
+      A1:=Copy(Geheim,1,1);  A2:=Copy(Geheim,2,1);  A3:=Copy(Geheim,3,1);  A4:=Copy(Geheim,4,1);
       FA1:=0; FB1:=0; FA2:=0; FB2:=0; FA3:=0; FB3:=0; FA4:=0; FB4:=0;
       If A1=B1 then begin Erg:=Erg+'2'; FA1:=1; FB1:=1; end;
       If A2=B2 then begin Erg:=Erg+'2'; FA2:=1; FB2:=1; end;
@@ -279,10 +281,8 @@ End;
 { Show the evaluation as small black/white pegs above the column    }
 { ---------------------------------------------------------------- }
 Procedure ZeigeBewertung(Erg : String);
-Var E              : String;
-    E1, E2, E3, E4 : String;
-Begin E:=Erg;
-      E1:=Copy(E,1,1); E2:=Copy(E,2,1); E3:=Copy(E,3,1); E4:=Copy(E,4,1);
+Var E1, E2, E3, E4 : String;
+Begin E1:=Copy(Erg,1,1); E2:=Copy(Erg,2,1); E3:=Copy(Erg,3,1); E4:=Copy(Erg,4,1);
       SetColor(Black);
       HideCursor;
       Circle((Zug-1)*48+80+12,120,5);
@@ -304,27 +304,21 @@ End;
 { Letter of the code -> colour                                      }
 { ---------------------------------------------------------------- }
 Function FarbeVon(C : String) : Integer;
-Var F : Integer;
-    S : String;
-Begin S:=C;
-      If S='A' then F:=DarkGray;
-      If S='G' then F:=Green;
-      If S='B' then F:=Blue;
-      If S='R' then F:=Red;
-      If S='Y' then F:=Yellow;
-      If S='W' then F:=White;
-      FarbeVon:=F;
+Begin If C='A' then FarbeVon:=DarkGray;
+      If C='G' then FarbeVon:=Green;
+      If C='B' then FarbeVon:=Blue;
+      If C='R' then FarbeVon:=Red;
+      If C='Y' then FarbeVon:=Yellow;
+      If C='W' then FarbeVon:=White;
 End;
 
 { ---------------------------------------------------------------- }
 { Reveal the secret code on the right, one peg every 2.5 seconds    }
 { ---------------------------------------------------------------- }
 Procedure ZeigeCode(C : String);
-Var S              : String;
-    C1, C2, C3, C4 : String;
+Var C1, C2, C3, C4 : String;
     I, Nr, F       : Integer;
-Begin S:=C;
-      C1:=Copy(S,1,1); C2:=Copy(S,2,1); C3:=Copy(S,3,1); C4:=Copy(S,4,1);
+Begin C1:=Copy(C,1,1); C2:=Copy(C,2,1); C3:=Copy(C,3,1); C4:=Copy(C,4,1);
       Nr:=0;
       SetFillStyle(SolidFill,Brown);
       Bar(575,150,619,350);
@@ -389,11 +383,10 @@ Begin Drin:=False;
             end;
       Anzahl:=I;
       Close(Datei);
-      If Anzahl<=30 then
-         For I:=Anzahl to 30 do
-             begin Liste[I].Name:='-';
-                   Liste[I].Punkte:=0;
-             end;
+      For I:=Anzahl to 30 do
+          begin Liste[I].Name:='-';
+                Liste[I].Punkte:=0;
+          end;
       I:=1;
       If Anzahl<10 then Drin:=True
       else Repeat
@@ -407,41 +400,47 @@ Begin Drin:=False;
                Rectangle(1,1,639,479);
                Rectangle(3,3,637,477);
                SetTextStyle(SansSerifFont,HorizDir,4);
-               SetTextJustify(LeftText,BottomText);
+               SetTextJustify(LeftText,TopText);
                ReadStringXY(100,220,'ENTER YOUR NAME: ',Name);
                Liste[Anzahl].Name:=Name;
                Liste[Anzahl].Punkte:=Punkte;
-               J:=0;
-               While Anzahl-1>J do
-                     begin Inc(J);
-                           K:=J;
-                           Repeat
-                                 Inc(K);
-                                 If Liste[J].Punkte<Liste[K].Punkte then
-                                    begin Liste[0]:=Liste[J];
-                                          Liste[J]:=Liste[K];
-                                          Liste[K]:=Liste[0];
-                                    end;
-                           Until K=Anzahl;
-                     end;
          end;
+      J:=0;
+      While Anzahl-1>J do
+            begin Inc(J);
+                  K:=J;
+                  Repeat
+                        Inc(K);
+                        If Liste[J].Punkte<Liste[K].Punkte then
+                           begin Liste[0]:=Liste[J];
+                                 Liste[J]:=Liste[K];
+                                 Liste[K]:=Liste[0];
+                           end;
+                  Until K=Anzahl;
+            end;
       ClearDevice;
       Rectangle(1,1,639,479);
       Rectangle(3,3,637,477);
       SetTextJustify(CenterText,CenterText);
       SetTextStyle(SansSerifFont,HorizDir,7);
       OutTextXY(320,50,'HALL OF FAME');
-      SetTextJustify(LeftText,BottomText);
+      SetTextJustify(LeftText,TopText);
       SetTextStyle(SansSerifFont,HorizDir,4);
-      For I:=1 to 10 do
-          begin OutTextXY(50,I*35+70,Liste[I].Name);
-                Str(Liste[I].Punkte,S);
-                W:=TextWidth(S);
-                OutTextXY(600-W,I*35+70,S);
-          end;
+      I:=1;
+      Repeat
+            OutTextXY(50,I*35+70,Liste[I].Name);
+            Str(Liste[I].Punkte,S);
+            W:=TextWidth(S);
+            OutTextXY(600-W,I*35+70,S);
+            Inc(I);
+      Until I>10;
       Assign(Datei,'MASTER.INI');
       Rewrite(Datei);
-      For I:=1 to 10 do Write(Datei,Liste[I]);
+      I:=1;
+      Repeat
+            Write(Datei,Liste[I]);
+            Inc(I);
+      Until I>10;
       Close(Datei);
       Repeat Until KeyPressed;
 End;
@@ -464,7 +463,7 @@ Begin Randomize;
                GotoXY(6,7);  Write('ú Minimale Aufl”sung von 640x480 Pixels');
                GotoXY(5,9);  Write('Ihr System:');
                GotoXY(6,11); Write('ú ',GetDriverName);
-               GotoXY(6,12); Write('ú ',MaxX,'x',MaxY);
+               GotoXY(6,12); Write('ú ',GetMaxX,'x',GetMaxY);   { sic: MaxX and MaxY stay unused }
                TextColor(LightGray);
                GotoXY(1,25);
                Taste:=ReadKey;
@@ -480,7 +479,7 @@ Begin Randomize;
                      Zug:=1;
                      Anz:=0;
                      Gewonnen:=True;
-                     SetTextJustify(LeftText,BottomText);
+                     SetTextJustify(LeftText,TopText);
                      Code:=MacheCode;
                      Spielfeld;
                      Zeit(Start);

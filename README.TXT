@@ -34,8 +34,9 @@ MYTUTOR   Tutorial program for the MyUtil library (Mar 1994).
 ASTRO     Zodiac sign and ascendant programs (Sep/Oct 1993).
 ENGTRAIN  English vocabulary trainer (Feb 1993).
 SNDBLS    Sound Blaster programming (Sep 1993 - Sep 1994).
-MASTER    Master Mind game (Oct 1993 and Apr 1994), executables
-          only, with hall-of-fame files.
+MASTER    Master Mind game (Oct 1993 and Apr 1994). Both versions
+          were reconstructed as source; with the hall-of-fame files
+          and the bitmaps of the 1994 version.
 PCXTOOLS  PCX and PRW image tools and the images in PICS.
 INSTALL   Own graphical installer for the Turbo Pascal 6.0 disks.
 OBERFL    Window object experiments ("Windows 3.1" look).
@@ -59,15 +60,21 @@ PROGRAMS WITHOUT SOURCE
 -----------------------
 Seven executables have no matching .PAS file. They were examined
 by string extraction and disassembly in October 2026. All are
-Turbo Pascal 6.0 builds. Three were reconstructed as source:
+Turbo Pascal 6.0 builds. Four were reconstructed as source:
 
   TOOLS\DARK.PAS       reconstructed from DARK.EXE
   MASTER\DELMASTE.PAS  reconstructed from DELMASTE.EXE
   MASTER\MASTER.PAS    reconstructed from MASTER.EXE (the game)
+  MASTER\MMIND.PAS     reconstructed from MMIND.EXE (the 1994 version
+                       of the game; its bitmaps are cut out as .TPP)
+
+MASTER.PAS and MMIND.PAS were checked by recompiling them with Turbo
+Pascal 6.0 in DOSBox-X: both give an EXE identical to the original,
+byte for byte. See MASTER\README.TXT.
 
 The others are described in the README.TXT of their folder:
-MMIND.EXE (MASTER, same game with a bitmap title), WIN.EXE (OBERFL),
-ASTRO.EXE (ASTRO). INSTALL2.EXE is a second build of INSTALL.PAS.
+WIN.EXE (OBERFL), ASTRO.EXE (ASTRO). INSTALL2.EXE is a second build
+of INSTALL.PAS.
 
 DATING NOTES
 ------------
@@ -89,3 +96,5 @@ FILE TYPES
 .NOT  grade file (PCGRADES)  .VOC  vocabulary lesson (ENGTRAIN)
 .SPT  sports day data        .DAT  misc. data files
 .BGI  graphics driver        .CHR  stroked font
+.TPP  picture, PutImage format (PCX_PAS, MASTER)
+.PNG  rendering of a .TPP, added in 2026
