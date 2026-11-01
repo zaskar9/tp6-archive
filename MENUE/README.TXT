@@ -16,7 +16,6 @@ MENU.DAT    the categories; one data file per category:
   DEMONSTR.DAT  Demonstrationen
   DOSPROMT.DAT  DOS-Prompt
   VIRENSCH.DAT  Virenschutz: Norton AntiVirus
-OLD\MENU.DAT  an older menu file (Aug 1993)
 
 These data files are a snapshot of the software on the PC in
 July 1993.

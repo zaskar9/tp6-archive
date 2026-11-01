@@ -18,8 +18,6 @@ Text-mode tools in this folder:
                 Musik. COMPOSER.EXE is the Sept 1993 build.
   SND2CMP.PAS   converts the older .SND song format to .CMP
                 (with TONZUWEI.INC)
-  OLD\COMPTEST.EXE  older build (Oct 1993); COMPTEST.EXE in the
-                root is the newer one.
 
 SONGS\   34 song files (.CMP) and 4 older ones (.SND): Allemein,
           Amazing, Fanfare, Freude, Hook, Jingle, Jurassic, New Year,

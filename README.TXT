@@ -30,6 +30,8 @@ DRAW      Paint program with mouse (Jun-Oct 1993) and the mouse
 MENUE     DOS program launcher "ProMenu" (Jul/Aug 1993) with its
           menu data files.
 MGCCDOC   "MGCC Doctor" system information tool (Dec 1993).
+HWTEST    "HardwareTester", its forerunner (Oct 1993): system
+          information, graphics demo and mouse test.
 MYTUTOR   Tutorial program for the MyUtil library (Mar 1994).
 ASTRO     Zodiac sign and ascendant programs (Sep/Oct 1993).
 ENGTRAIN  English vocabulary trainer (Feb 1993).
@@ -53,15 +55,15 @@ The former folders COMPILED (compiled programs) and DEMO were
 dissolved; their files now sit in the project folders.
 
 Older or alternative versions of a program are kept in an OLD
-subfolder of the project (COMPOSER\OLD, ENGTRAIN\OLD, FORMEL\OLD,
-MASTER\OLD, MENUE\OLD, PCGRADES\OLD, SNDBLS\OLD).
+subfolder of the project (ENGTRAIN\OLD, FORMEL\OLD, HWTEST\OLD,
+MASTER\OLD, PCGRADES\OLD, SNDBLS\OLD).
 
 PROGRAMS WITHOUT SOURCE
 -----------------------
 Nine executables had no .PAS file of the same name (not counting
 the third-party tools in SPORTTAG). They were examined by string
 extraction and disassembly in October and November 2026. All are
-Turbo Pascal 6.0 builds. Six were reconstructed as source:
+Turbo Pascal 6.0 builds. Seven were reconstructed as source:
 
   TOOLS\DARK.PAS       reconstructed from DARK.EXE
   MASTER\DELMASTE.PAS  reconstructed from DELMASTE.EXE
@@ -72,15 +74,16 @@ Turbo Pascal 6.0 builds. Six were reconstructed as source:
                        original of ASTROGR.PAS)
   OBERFL\WIN.PAS       reconstructed from WIN.EXE (window over a
                        star field, forerunner of OBERFL01.PAS)
+  HWTEST\COMPTEST.PAS  reconstructed from COMPTEST.EXE (hardware
+                       tester; OLD\COMPTEST.PAS is the older build)
 
-All six were checked by recompiling them with Turbo Pascal 6.0 in
+All seven were checked by recompiling them with Turbo Pascal 6.0 in
 DOSBox-X: each gives an EXE identical to the original, byte for byte.
-See the README.TXT of MASTER, ASTRO, OBERFL and TOOLS.
+See the README.TXT of MASTER, ASTRO, OBERFL, TOOLS and HWTEST.
 
 Two turned out to be builds of existing sources under another
 name: INSTALL2.EXE is INSTALL.PAS without the splash picture, and
 SNDBLS\HOOK.EXE is INTERRPT.PAS (recompiled, it is byte-identical).
-The remaining one, COMPTEST.EXE, is described in COMPOSER\README.TXT.
 
 DATING NOTES
 ------------

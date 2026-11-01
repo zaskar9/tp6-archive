@@ -46,13 +46,13 @@ CHKLIST.MS
 .DS_Store
 Thumbs.db
 
-# --- Executables without surviving source -----------------------------
-# This binary is the only remaining form of its program and is
-# deliberately not tracked; reconstructing its source is a task for
-# later. Uncomment a line to keep that binary despite the *.EXE rule.
-#!/COMPOSER/COMPTEST.EXE
-# Originals of the reconstructed programs
+# --- Originals of the reconstructed programs ---------------------------
+# Every executable that had no source has been reconstructed (see
+# README.TXT). The original binaries stay untracked; uncomment a line
+# to keep one despite the *.EXE rule.
 #!/MASTER/MASTER.EXE
 #!/MASTER/MMIND.EXE
 #!/ASTRO/ASTRO.EXE
 #!/OBERFL/WIN.EXE
+#!/HWTEST/COMPTEST.EXE
+#!/HWTEST/OLD/COMPTEST.EXE
