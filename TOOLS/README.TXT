@@ -8,4 +8,7 @@ DARK.EXE      20 Mar 1994. Runs a DOS command with the display
               the VGA attribute controller, runs COMMAND /C with
               the argument, clears the screen and switches the
               display back on. No source survived.
-DARK.PAS      reconstructed from DARK.EXE by disassembly, Oct 2026.
+DARK.PAS      reconstructed from DARK.EXE by disassembly, Oct 2026,
+              corrected Nov 2026: the display is switched with
+              VGA_Aus/VGA_Ein of UNITS\MYUTIL.PAS. Recompiled with
+              Turbo Pascal 6.0 it is byte-identical to DARK.EXE.

@@ -60,21 +60,22 @@ PROGRAMS WITHOUT SOURCE
 -----------------------
 Seven executables have no matching .PAS file. They were examined
 by string extraction and disassembly in October 2026. All are
-Turbo Pascal 6.0 builds. Four were reconstructed as source:
+Turbo Pascal 6.0 builds. Five were reconstructed as source:
 
   TOOLS\DARK.PAS       reconstructed from DARK.EXE
   MASTER\DELMASTE.PAS  reconstructed from DELMASTE.EXE
   MASTER\MASTER.PAS    reconstructed from MASTER.EXE (the game)
   MASTER\MMIND.PAS     reconstructed from MMIND.EXE (the 1994 version
                        of the game; its bitmaps are cut out as .TPP)
+  ASTRO\ASTRO.PAS      reconstructed from ASTRO.EXE (text-mode
+                       original of ASTROGR.PAS)
 
-MASTER.PAS and MMIND.PAS were checked by recompiling them with Turbo
-Pascal 6.0 in DOSBox-X: both give an EXE identical to the original,
-byte for byte. See MASTER\README.TXT.
+All five were checked by recompiling them with Turbo Pascal 6.0 in
+DOSBox-X: each gives an EXE identical to the original, byte for byte.
+See the README.TXT of MASTER, ASTRO and TOOLS.
 
 The others are described in the README.TXT of their folder:
-WIN.EXE (OBERFL), ASTRO.EXE (ASTRO). INSTALL2.EXE is a second build
-of INSTALL.PAS.
+WIN.EXE (OBERFL). INSTALL2.EXE is a second build of INSTALL.PAS.
 
 DATING NOTES
 ------------

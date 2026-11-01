@@ -47,15 +47,13 @@ Var Dummy0                     : Integer;  { unused; keeps the data layout of th
     Anz                        : Integer;  { pegs placed in the current move }
     N                          : Integer;  { peg counter in LeseZug }
     MaxX, MaxY                 : Integer;
-    Taste                      : Char;
-    Taste2                     : Char;     { unused; keeps the data layout of the EXE }
+    Taste                      : Char;     { Farbe follows at the next even address ($A+) }
     Farbe                      : Word;     { colour chosen with the mouse }
     Ergebnis                   : String;   { evaluation, e.g. '221' }
     ZugStr                     : String[5];
     Code                       : String[5];
     Start, Ende                : LongInt;  { seconds since midnight }
-    Gewonnen                   : Boolean;
-    Dummy                      : Boolean;  { unused; keeps the data layout of the EXE }
+    Gewonnen                   : Boolean;  { Liste follows at the next even address ($A+) }
     Liste                      : Array[0..100] of Eintrag;  { [0] is the swap buffer }
     Datei                      : File of Eintrag;
     Unbenutzt                  : Array[1..1310] of Byte;  { unused; the EXE has 1310 more bytes of }

@@ -15,7 +15,10 @@ MMIND.EXE     rebuilt version of 9 Apr 1994, 113 KB. The same game on
               the EXE (80 KB of the file), scores in MASTER.SCR.
               Loads the BGI driver from the current directory.
 DELMASTE.EXE  3 Oct 1993: resets the hall of fame by truncating
-              MASTER.INI. Source reconstructed: DELMASTE.PAS.
+              MASTER.INI. Source reconstructed: DELMASTE.PAS, since
+              Nov 2026 byte-identical when recompiled (it was built
+              with stack checking off and carries unused leftovers
+              of a hall-of-fame routine, see the file header).
 
 MASTER.PAS    reconstructed source of MASTER.EXE, October 2026. Made
               from a disassembly with the help of the source/EXE pairs
