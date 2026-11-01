@@ -92,9 +92,11 @@ its palette and hole ranges share their border values (80..160,
 as duplicate case labels. What the
 comparison could not settle: Farbe is a Word in MMIND.PAS because the
 range checks say so, in MASTER.PAS the type leaves no trace; the two
-unused bytes before GraphDriver (Dummy0) and the 1310 unused bytes at
-the end of the variables of MMIND (Unbenutzt) have unknown names and
-types.
+unused bytes before GraphDriver (Dummy0) have unknown name and type;
+the 1310 unused bytes at the end of the variables of MMIND are
+declared as Bilder, an array of five tPCXBild records of MyUtil (5 x
+262 bytes, one per picture of the program), which fits the size
+exactly and the history of the program well, but is a deduction.
 
 Hall of fame files: 10 records of 258 bytes each
 (Name: String; Punkte: Integer).

@@ -21,8 +21,13 @@
 {                                                                       }
 { Verified: compiled with Turbo Pascal 6.0 (TPC.EXE, no switches, the   }
 { MYUTIL unit from UNITS, the object files from BINOBJ) this file gives }
-{ an EXE that is byte for byte identical to MMIND.EXE. Dummy0 and       }
-{ Unbenutzt exist only because the EXE has unused bytes there.          }
+{ an EXE that is byte for byte identical to MMIND.EXE. Dummy0 exists    }
+{ only because the EXE has two unused bytes there. Bilder stands for    }
+{ 1310 unused bytes at the end of the variables: that is five times     }
+{ the 262 bytes of MyUtil's tPCXBild, and the program has five          }
+{ pictures, so the array below is the likely leftover of a first        }
+{ version that loaded the pictures from PCX files; size is the only     }
+{ evidence, the name is invented.                                       }
 {                                                                       }
 { Units: CRT, DOS and GRAPH from Turbo Pascal 6.0, MyUtil from the      }
 { UNITS folder of this archive (version of Feb 1994), MMLogo and MMText }
@@ -56,8 +61,7 @@ Var Dummy0                     : Integer;  { unused; keeps the data layout of th
     Gewonnen                   : Boolean;  { Liste follows at the next even address ($A+) }
     Liste                      : Array[0..100] of Eintrag;  { [0] is the swap buffer }
     Datei                      : File of Eintrag;
-    Unbenutzt                  : Array[1..1310] of Byte;  { unused; the EXE has 1310 more bytes of }
-                                                          { global variables here, type unknown     }
+    Bilder                     : Array[1..5] of tPCXBild;  { unused; 1310 bytes, see header }
 
 { ---------------------------------------------------------------- }
 { Filled panel with a 2 pixel 3D border: light on top and left,     }
