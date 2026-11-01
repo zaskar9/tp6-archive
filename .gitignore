@@ -47,13 +47,12 @@ CHKLIST.MS
 Thumbs.db
 
 # --- Executables without surviving source -----------------------------
-# These binaries are the only remaining form of their programs and are
-# deliberately not tracked; reconstructing their source is a task for
+# This binary is the only remaining form of its program and is
+# deliberately not tracked; reconstructing its source is a task for
 # later. Uncomment a line to keep that binary despite the *.EXE rule.
-#!/OBERFL/WIN.EXE
-#!/SNDBLS/HOOK.EXE
 #!/COMPOSER/COMPTEST.EXE
 # Originals of the reconstructed programs
 #!/MASTER/MASTER.EXE
 #!/MASTER/MMIND.EXE
 #!/ASTRO/ASTRO.EXE
+#!/OBERFL/WIN.EXE

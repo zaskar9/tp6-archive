@@ -58,9 +58,10 @@ MASTER\OLD, MENUE\OLD, PCGRADES\OLD, SNDBLS\OLD).
 
 PROGRAMS WITHOUT SOURCE
 -----------------------
-Seven executables have no matching .PAS file. They were examined
-by string extraction and disassembly in October 2026. All are
-Turbo Pascal 6.0 builds. Five were reconstructed as source:
+Nine executables had no .PAS file of the same name (not counting
+the third-party tools in SPORTTAG). They were examined by string
+extraction and disassembly in October and November 2026. All are
+Turbo Pascal 6.0 builds. Six were reconstructed as source:
 
   TOOLS\DARK.PAS       reconstructed from DARK.EXE
   MASTER\DELMASTE.PAS  reconstructed from DELMASTE.EXE
@@ -69,13 +70,17 @@ Turbo Pascal 6.0 builds. Five were reconstructed as source:
                        of the game; its bitmaps are cut out as .TPP)
   ASTRO\ASTRO.PAS      reconstructed from ASTRO.EXE (text-mode
                        original of ASTROGR.PAS)
+  OBERFL\WIN.PAS       reconstructed from WIN.EXE (window over a
+                       star field, forerunner of OBERFL01.PAS)
 
-All five were checked by recompiling them with Turbo Pascal 6.0 in
+All six were checked by recompiling them with Turbo Pascal 6.0 in
 DOSBox-X: each gives an EXE identical to the original, byte for byte.
-See the README.TXT of MASTER, ASTRO and TOOLS.
+See the README.TXT of MASTER, ASTRO, OBERFL and TOOLS.
 
-The others are described in the README.TXT of their folder:
-WIN.EXE (OBERFL). INSTALL2.EXE is a second build of INSTALL.PAS.
+Two turned out to be builds of existing sources under another
+name: INSTALL2.EXE is INSTALL.PAS without the splash picture, and
+SNDBLS\HOOK.EXE is INTERRPT.PAS (recompiled, it is byte-identical).
+The remaining one, COMPTEST.EXE, is described in COMPOSER\README.TXT.
 
 DATING NOTES
 ------------
